@@ -573,6 +573,9 @@
 
       .hero-title {
         font-size: clamp(2.2rem, 8vw, 3.6rem);
+        display: block;
+        text-align: center;
+        margin: 8px 0;
       }
 
       .hero-description {
@@ -602,12 +605,30 @@
       iframe {
         min-height: 240px;
       }
+
+      .hero-title {
+        font-size: clamp(2.2rem, 8vw, 3.6rem);
+        align-items: center;
+        text-align: center;
+        margin: 8px 0;
+
+      }
     }
 
     /* 📱 Mobile view */
     @media (max-width: 768px) {
       .role-grid {
         grid-template-columns: 1fr;
+      }
+
+      .hero-title {
+        font-size: clamp(2.2rem, 8vw, 3.6rem);
+        display: block;
+        text-align: center;
+        margin: 8px 0;
+      }
+      .countdown-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
     }
   </style>
@@ -633,14 +654,14 @@
               style="display: block; text-align: center; margin: 8px 0; font-size: 1.2em;">
               ♥
             </span>ManickaVasuki</h1>
-          <p class="hero-description">Our love began in 2019 with simple, beautiful moments. With every step, our love
+          <p class="hero-description" style=" text-align: justify;">Our love began in 2019 with simple, beautiful moments. With every step, our love
             grew stronger and brought us closer together. Today, our love becomes a promise as we celebrate our
             engagement. 💍</p>
           <div class="detail-grid">
             <div><strong>Event</strong> - Engagement Celebration</div>
             <div><strong>Venue</strong> - AG Mahal, Sivakasi</div>
             <div><strong>Love since</strong> - 2019</div>
-            <div><strong>Special Note</strong> - With love, family blessings & happiness</div>
+            <div><strong>Special Note</strong> - With love & family blessings</div>
             <div><strong>Future</strong> - Building dreams together forever</div>
           </div>
           <div class="hero-badge"><span>✨</span> A love journey growing with dreams, design, and family support.</div>
@@ -671,12 +692,12 @@
     </section>
 
     <section class="section-box">
-      <div class="names">Manikandan 💙 Manicka Vasuki</div>
+      <div class="names">Manikandan <br>💙<br> Manicka Vasuki</div>
     </section>
 
     <section class="section-box">
       <h1>Family Support</h1>
-      <div class="info-grid">
+      <div class="info-grid"  style="text-align: justify;">
         <p>Our engagement took place with the blessing of both families. Their support has turned our 2019 love story
           into a strong foundation for marriage.</p>
         <p>Every step of this journey has been powered by trust, encouragement, and a belief that love and logic can
@@ -686,18 +707,22 @@
 
     <section class="section-box">
       <h1>Our Story</h1>
-      <div class="info-grid">
-    <p>In August 2018, our journey began at Kalasalingam University, where we first met as friends, sharing smiles, conversations, and simple moments.</p>
-    
-    <p>By 2019, our friendship blossomed into love. What started as a beautiful connection grew stronger with each passing day.</p>
-    
-    <p>Over the last 7 years, we’ve shared countless happy memories, supported each other through every phase, and built a bond filled with trust, laughter, and understanding.</p>
-    
-    <p>Today, we celebrate our engagement—a promise to continue this journey together, creating a lifetime of love and happiness.</p>
-  </div>
+      <div class="info-grid"  style=" text-align: justify;">
+        <p>In August 2018, our journey began at Kalasalingam University, where we first met as friends, sharing smiles,
+          conversations, and simple moments.</p>
+
+        <p>By 2019, our friendship blossomed into love. What started as a beautiful connection grew stronger with each
+          passing day.</p>
+
+        <p>Over the last 7 years, we’ve shared countless happy memories, supported each other through every phase, and
+          built a bond filled with trust, laughter, and understanding.</p>
+
+        <p>Today, we celebrate our engagement—a promise to continue this journey together, creating a lifetime of love
+          and happiness.</p>
+      </div>
     </section>
 
-    <section class="section-box">
+    <section class="section-box"  style=" text-align: justify;">
       <h1>Engagement Countdown</h1>
       <p style="margin-top:14px; color:#bafcd9;">Counting down to our engagement date on 18 May 2026.</p>
       <div class="countdown-grid">
@@ -722,13 +747,13 @@
 
     <section class="section-box">
       <h1>Event Schedule</h1>
-      <div class="schedule-card"><strong>04:30 PM</strong>
+      <div class="schedule-card" style=" text-align: justify;"><strong>04:30 PM</strong>
         <div>Bus Started at near North Marriamman kovil, Thalavaipuram </div>
       </div>
-      <div class="schedule-card"><strong>6:30 PM</strong>
+      <div class="schedule-card" style=" text-align: justify;"><strong>6:30 PM</strong>
         <div>Function started at AG Mahal</div>
       </div>
-      <div class="schedule-card"><strong>8:00 PM</strong>
+      <div class="schedule-card" style=" text-align: justify;"><strong>8:00 PM</strong>
         <div>Dinner reception with music, memories, and joy.</div>
       </div>
     </section>
@@ -736,7 +761,7 @@
 
     <section class="section-box">
       <h1>Marriage Countdown</h1>
-      <p style="margin-top:14px; color:#bafcd9;">Counting down to our wedding day on 13 September 2026.</p>
+      <p style="margin-top:14px; color:#bafcd9; text-align: justify;">Counting down to our wedding day on 13 September 2026.</p>
       <div class="countdown-grid">
         <div class="countdown-cell">
           <div class="count-value" id="countDays">00</div>
@@ -762,10 +787,10 @@
       <div class="venue-card">
         <div class="venue-info">
           <div class="venue-dot"></div>
-          <div>
+          <div style=" text-align: justify;">
             <h2>AG Mahal</h2>
-            <p>Nehru Colony, Sivakasi</p>
-            <p>SFR College Behind, Near Kaliamman Kovil</p>
+            <p>Nehru Colony, </p>
+            <p>SFR College Behind,<br> Near Kaliamman Kovil,<br>Sivakasi - Tamil Nadu 626124</p>
           </div>
         </div>
         <button class="map-btn" onclick="openInGoogleMaps()">Open in Google Maps</button>
@@ -785,7 +810,7 @@
   <footer class="page-footer">
     <p>/* Built with <span>♥</span> by the groom — because even love deserves clean code. */</p>
     <p class="commit-line"><span>git commit -m</span><code>"forever together"</code></p>
-    <p>© 2026 Manikandan &amp; Vasuki</p>
+    <p>© 2026 Manikandan &amp; Manicka Vasuki</p>
   </footer>
 
   <script>
@@ -870,7 +895,7 @@
 
 {
   "groom": "Manikandan",
-  "bride": "Vasuki",
+  "bride": "Manicka Vasuki",
   "event": "Engagement 💍"
 }
 
