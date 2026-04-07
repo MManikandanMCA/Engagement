@@ -1187,7 +1187,7 @@ main {
   color: var(--text-muted);
   font-family: inherit;
   line-height: 1.6;
-  font-size: 14px;
+  font-size: large;
   background: var(--background-darker);
   position: relative;
 }
