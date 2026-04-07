@@ -1182,7 +1182,7 @@ main {
 }
 
 .content {
-  padding: 20px;
+  padding: 5px;
   white-space: pre-wrap;
   color: var(--text-muted);
   font-family: inherit;
