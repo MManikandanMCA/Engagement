@@ -29,7 +29,7 @@ function tryAutoplay() {
     }, 100);
   }).catch(() => {
     setPausedState();
-    musicStatus.textContent = 'Autoplay blocked. Tap the button to resume.';
+    musicStatus.textContent = 'Autoplay blocked. Click the button';
   });
 }
 
@@ -103,7 +103,7 @@ const text = `~/engagement$ Post Call response- invite.json
 
 {
     "status": "200 OK",
-    "message":"Love Successfully Engaged!💍",
+    "message":"Successfully Engaged!💍",
     "data": {
         "groom": "Manikandan",
         "bride": "Manicka Vasuki",
